@@ -1,0 +1,88 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #000;}
+header{
+    background-color: black;
+    opacity: 0.7;
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+
+}
+.logo img{
+    flex: 1;
+    height: 100px;
+    width: 290px;
+    opacity: 0.6;
+}
+ul{
+    align-content: right;
+    justify-content: right;
+    flex: 1;
+    list-style: none;
+    text-align: right;
+}
+li{
+    display: inline-block;
+    margin-right: 60px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-transform: uppercase;
+    margin-top: 15px;
+    }
+li a{
+    z-index: 1;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+li:hover{
+    background-color: whitesmoke;
+    color: black;
+}
+.container2{
+    display: flex;
+}
+form{
+    flex: 1;
+    margin-top: 5px;
+    width: 290px;
+    background-color: #000;
+    height: 500px;
+    opacity: 0.7;
+    position: absolute;
+}
+.container2 img{
+    flex: 2;
+    background-image: url('../imgs/banner.jpg');
+    margin-top: -100px;
+}
+.tituloForm{
+    text-align: center;
+    width: 280px;
+}
+.form-group{
+    margin-top: 10px;
+    color: #fff;
+    font-weight: bold;
+    margin-left: 5px;
+}
+.inputText{
+    width: 250px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    margin-left: 5px;
+    padding-left: 10px;
+}
+.textMsg{
+    min-width: 260px;
+    max-width: 260px;
+    min-height: 120px;
+    max-height: 120px;
+    margin-left: 5px;
+    color: #fff;
+    font-weight: bold;
+}
